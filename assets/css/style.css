@@ -1,0 +1,196 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+/* ========== Helper CSS =============*/
+ul{
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+.text-right{
+	text-align: right;
+}
+.row .col12{
+    text-align: center;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mb-70{
+	margin-bottom: 70px;
+}
+.mb-90{
+	margin-bottom: 90px;
+}
+.mb-130{
+	margin-bottom: 130px;
+}
+.row, .row::after, .row::before {
+	display: table;
+	clear: both;
+	width: 100%;
+}
+[class^='col']{
+	float: left;
+	padding: 0 15px;
+}
+
+.col3{
+	width: calc(100% * 3 / 12);
+}
+.col4{
+	width: calc(100% * 4 / 12);
+}
+.col6{
+	width: calc(100% * 6 / 12);
+}
+.col9{
+	width: calc(100% * 9 / 12);
+}
+.col10{
+	width: calc(100% * 10 / 12);
+}
+.col12{
+	width: calc(100% * 12 / 12);
+}
+
+.offset-1{
+	margin-left: calc(100% * 1 / 12);
+}
+.offset-3{
+	margin-left: calc(100% * 3 / 12);
+}
+.offset-4{
+	margin-left: calc(100% * 4 / 12);
+}
+.pri-heading, .leaveComent{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin-bottom: 30px;
+	font-weight: lighter;
+}
+.sec-heading{
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #626262;
+	margin-bottom: 30px;
+}
+.sec-heading2{
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #626262;
+	margin-bottom: 30px;
+}
+.para{
+	font-size: 14px;
+	color: #626262;
+	margin-bottom: 50px;
+}
+body{
+	line-height: 1.5;
+}
+
+/* =========== Hero Image ===========*/
+.heroImg{
+	padding: 65px 0 95px;
+}
+
+.navbar ul{
+	display: inline-block;
+}
+.navbar li{
+	display: inline-block;
+	margin-left: 70px;
+}
+.navbar li a:link, 
+.navbar li a:visited{
+	padding: 10px;
+	color: black;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+
+/*=========Photo Diary CSS =========*/
+.thumbnailSection{
+	padding: 135px 0 125px;
+}
+.thumbImg{
+	height: 275px;
+	margin-bottom: 30px;
+}
+.thumbImg img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.thumbnail .para {
+	margin-bottom: 0px;
+}
+.innerRow .col6:first-child{
+	padding-left: 0px;
+}
+.innerRow .col6:last-child{
+	padding-right: 0px;
+}
+
+/*=========signup section CSS =========*/
+.signUp{
+	background-color: #f0f0f0;
+	padding: 70px 0 75px 0;
+}
+.form-group{
+	position: relative;
+}
+.form-control{
+	display: block;
+	width: 100%;
+	height: 36px;
+	border: 0px;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	outline: none;
+}
+.form-group i{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	transform: rotate(45deg);
+	font-size: 26px;
+	cursor: pointer;
+}
+.btn{
+	padding: 20px 30px;
+	cursor: pointer;
+	border: 1px solid #626262;
+	font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+.btn:hover, .btn:focus, .btn:active{
+	background-color: #626262;
+}
+
+/* =======footer section======== */
+.footer{
+	background-color:#f0f0f0;
+	padding:40px 0;
+	
+}
+.footerlinks li{
+	list-style:none;
+	display:inline-block;
+	margin-right:15px;
+}
+.footerlinks li,.footerlinks li a{
+	font-size:14px;
+	color:#000000;
+	text-transform:capitalize;
+}
+.footerlinks li a i{
+	color:#616161;
+}
